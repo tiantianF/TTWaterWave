@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF3400FA1DEEEAB7005FC312 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3400F91DEEEAB7005FC312 /* AppDelegate.swift */; };
+		EF3400FC1DEEEAB7005FC312 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3400FB1DEEEAB7005FC312 /* ViewController.swift */; };
+		EF3400FF1DEEEAB7005FC312 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF3400FD1DEEEAB7005FC312 /* Main.storyboard */; };
+		EF3401011DEEEAB7005FC312 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF3401001DEEEAB7005FC312 /* Assets.xcassets */; };
+		EF3401041DEEEAB7005FC312 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF3401021DEEEAB7005FC312 /* LaunchScreen.storyboard */; };
+		EF34010C1DEEEAF7005FC312 /* TTWaterWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF34010B1DEEEAF7005FC312 /* TTWaterWaveView.swift */; };
+		EF34010E1DEEEB0C005FC312 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF34010D1DEEEB0C005FC312 /* UIView+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF3400F61DEEEAB7005FC312 /* TTWaterWave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTWaterWave.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF3400F91DEEEAB7005FC312 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF3400FB1DEEEAB7005FC312 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF3400FE1DEEEAB7005FC312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF3401001DEEEAB7005FC312 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF3401031DEEEAB7005FC312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF3401051DEEEAB7005FC312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF34010B1DEEEAF7005FC312 /* TTWaterWaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTWaterWaveView.swift; sourceTree = "<group>"; };
+		EF34010D1DEEEB0C005FC312 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF3400F31DEEEAB7005FC312 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF3400ED1DEEEAB7005FC312 = {
+			isa = PBXGroup;
+			children = (
+				EF3400F81DEEEAB7005FC312 /* TTWaterWave */,
+				EF3400F71DEEEAB7005FC312 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF3400F71DEEEAB7005FC312 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF3400F61DEEEAB7005FC312 /* TTWaterWave.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF3400F81DEEEAB7005FC312 /* TTWaterWave */ = {
+			isa = PBXGroup;
+			children = (
+				EF34010B1DEEEAF7005FC312 /* TTWaterWaveView.swift */,
+				EF34010D1DEEEB0C005FC312 /* UIView+Extension.swift */,
+				EF3400F91DEEEAB7005FC312 /* AppDelegate.swift */,
+				EF3400FB1DEEEAB7005FC312 /* ViewController.swift */,
+				EF3400FD1DEEEAB7005FC312 /* Main.storyboard */,
+				EF3401001DEEEAB7005FC312 /* Assets.xcassets */,
+				EF3401021DEEEAB7005FC312 /* LaunchScreen.storyboard */,
+				EF3401051DEEEAB7005FC312 /* Info.plist */,
+			);
+			path = TTWaterWave;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF3400F51DEEEAB7005FC312 /* TTWaterWave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF3401081DEEEAB7005FC312 /* Build configuration list for PBXNativeTarget "TTWaterWave" */;
+			buildPhases = (
+				EF3400F21DEEEAB7005FC312 /* Sources */,
+				EF3400F31DEEEAB7005FC312 /* Frameworks */,
+				EF3400F41DEEEAB7005FC312 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTWaterWave;
+			productName = TTWaterWave;
+			productReference = EF3400F61DEEEAB7005FC312 /* TTWaterWave.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF3400EE1DEEEAB7005FC312 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = fangtiantian;
+				TargetAttributes = {
+					EF3400F51DEEEAB7005FC312 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EF3400F11DEEEAB7005FC312 /* Build configuration list for PBXProject "TTWaterWave" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF3400ED1DEEEAB7005FC312;
+			productRefGroup = EF3400F71DEEEAB7005FC312 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF3400F51DEEEAB7005FC312 /* TTWaterWave */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF3400F41DEEEAB7005FC312 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3401041DEEEAB7005FC312 /* LaunchScreen.storyboard in Resources */,
+				EF3401011DEEEAB7005FC312 /* Assets.xcassets in Resources */,
+				EF3400FF1DEEEAB7005FC312 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF3400F21DEEEAB7005FC312 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3400FC1DEEEAB7005FC312 /* ViewController.swift in Sources */,
+				EF3400FA1DEEEAB7005FC312 /* AppDelegate.swift in Sources */,
+				EF34010E1DEEEB0C005FC312 /* UIView+Extension.swift in Sources */,
+				EF34010C1DEEEAF7005FC312 /* TTWaterWaveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF3400FD1DEEEAB7005FC312 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF3400FE1DEEEAB7005FC312 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF3401021DEEEAB7005FC312 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF3401031DEEEAB7005FC312 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF3401061DEEEAB7005FC312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF3401071DEEEAB7005FC312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF3401091DEEEAB7005FC312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				INFOPLIST_FILE = TTWaterWave/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ttf.TTWaterWave;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EF34010A1DEEEAB7005FC312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				INFOPLIST_FILE = TTWaterWave/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ttf.TTWaterWave;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF3400F11DEEEAB7005FC312 /* Build configuration list for PBXProject "TTWaterWave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3401061DEEEAB7005FC312 /* Debug */,
+				EF3401071DEEEAB7005FC312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF3401081DEEEAB7005FC312 /* Build configuration list for PBXNativeTarget "TTWaterWave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3401091DEEEAB7005FC312 /* Debug */,
+				EF34010A1DEEEAB7005FC312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF3400EE1DEEEAB7005FC312 /* Project object */;
+}
